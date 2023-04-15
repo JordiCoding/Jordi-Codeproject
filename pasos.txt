@@ -1,0 +1,5 @@
+1. Abrir la carpeta donde vayan a trabajar
+2. agregar primer comando: git initi
+3. Agregar todos los archivos: git add .
+4. Verificaion de status. siempre que quieran ya que solo inormativo: git status
+5. Confirmar los cambios con: git commit -m "text"
