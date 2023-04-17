@@ -1,12 +1,12 @@
   /* Reset CSS */
 
-* {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     list-style: none;
-    
+
   }
 
   /* Components */
@@ -39,7 +39,7 @@
 
   .button-terciary {
 
-  display: inline-block;
+    display: inline-block;
     padding: 8px 24px;
     background-color: #2C2C2B;
     color: #FFFFFF;
@@ -50,109 +50,108 @@
     font-weight: bold;
     cursor: pointer;
 
-}
+  }
 
-/* Fontsize-Styles */
+  /* Fontsize-Styles */
 
-h1 {    
+  h1 {
     font-size: 120px;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 18px;
-}
+  }
 
-h3 {
+  h3 {
     font-size: 42px;
     margin-bottom: 20px;
-}
+  }
 
-.h3dark {
-    color:#FFFFFF
-}
+  .h3dark {
+    color: #FFFFFF
+  }
 
-h5 {
+  h5 {
     font-size: 26px;
     margin-bottom: 20px;
-}
+  }
 
-.p1 {
+  .p1 {
     font-size: 18px;
     color: #565565;
     margin-bottom: 40px;
-}
+  }
 
-.p1dark {
-    color:#FFFFFF;  
-}
+  .p1dark {
+    color: #FFFFFF;
+  }
 
-.p2 {
+  .p2 {
 
     font-size: 16px;
     color: #565565;
-}
-
-.span-yellow {
-    color:#FFCC78
-}
-
-.span-red {
-    color:#F4877A
-}
-
-
-/* Header basic styles */
-
-header {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100%;
   }
 
-.header-padre {
+  .span-yellow {
+    color: #FFCC78
+  }
+
+  .span-red {
+    color: #F4877A
+  }
+
+
+  /* Header basic styles */
+
+  header {
+    background-color: black;
+    color: white;
+
+  }
+
+  .header-padre {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-}
-    
+  }
 
 
- /* Header flexbox */
+
+  /* Header flexbox */
 
 
- nav {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
 
-  
+
   .logo a {
     font-size: 24px;
     font-weight: bold;
     color: #FFFFFF;
   }
-  
+
   .nav-links {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
-  
+
   .nav-links li {
     margin: 0 15px;
   }
-  
+
   .nav-links li a {
     font-size: 16px;
     color: #FFFFFF;
     text-decoration: none;
   }
-  
+
   .login a {
     padding: 10px 20px;
     background-color: #333;
@@ -162,61 +161,61 @@ header {
     font-weight: bold;
   }
 
-.padre-nav {
+  .padre-nav {
 
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10%;
-    
-}
+
+  }
 
 
- /* Hero Page */
+  /* Hero Page */
 
 
-.center-h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 60px 10px 20px 10px;
-      }
+  .center-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 60px 10px 20px 10px;
+  }
 
-.center-h2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-bottom: 40px;
-      }
+  .center-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
 
 
-.center-button {
+  .center-button {
 
     display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 40px;
-        gap: 40px;
-      }
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+    gap: 40px;
+  }
 
-/* Home Content flexbox */
+  /* Home Content flexbox */
 
-.features {
+  .features {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     gap: 10%;
     padding: 50px;
-    
+
   }
 
   .feature-black {
     background-color: #0C0C0D;
-}
+  }
 
   .box-content {
 
@@ -229,7 +228,7 @@ header {
     margin: 80px 30px 20px 20px;
   }
 
-/* Title card section */
+  /* Title card section */
 
   .section3-parent {
     display: flex;
@@ -237,48 +236,48 @@ header {
     margin: 50px;
     margin-top: 80px;
   }
-  
+
   .section3-child {
     width: 570px;
     height: 200px;
     text-align: center;
   }
 
-  
-/* Home Content Card */
+
+  /* Home Content Card */
 
 
-.card-row {
+  .card-row {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
-    
-}
 
-.card-row2 {
+  }
+
+  .card-row2 {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 25px;
     margin-top: 25px;
-    
-}
 
-.card {
+  }
+
+  .card {
     max-width: 370px;
     padding: 20px;
     margin: 10px;
     border-radius: 12px;
     border: 1px solid #D4D4E2;
-    
-}
+
+  }
 
 
-.card2 {
-    display: flex;       
+  .card2 {
+    display: flex;
     flex-flow: column;
     align-items: center;
     text-align: center;
@@ -286,22 +285,22 @@ header {
     padding: 20px;
     margin: 10px;
     border-radius: 12px;
-    border: 1px solid #D4D4E2;  
-}
+    border: 1px solid #D4D4E2;
+  }
 
-.card2 > img {
+  .card2>img {
     padding: 20px;
-}
+  }
 
 
-.card > * {
+  .card>* {
     margin-bottom: 16px;
   }
 
 
-/* Footer */
+  /* Footer */
 
-.footer-parent {
+  .footer-parent {
 
     display: flex;
     flex-wrap: wrap;
@@ -309,63 +308,65 @@ header {
     padding: 100px;
     background-color: #FFCC78;
 
-}
+  }
 
-.footer-child {
+  .footer-child {
     padding: 20px;
-}
+  }
 
-.footer-child, p {
+  .footer-child,
+  p {
     margin-bottom: 24px;
-}
+  }
 
-.footer-child, li {
+  .footer-child,
+  li {
     margin-bottom: 16px;
-}
+  }
 
 
 
-/* Form */
+  /* Form */
 
 
 
-.form-parent-box {
+  .form-parent-box {
 
 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 
 
-}
+  }
 
-.form-child-box {
+  .form-child-box {
 
     width: 540px;
     margin: 10px;
-    
-    }
 
-.form-child-box-button {
+  }
 
-        display: flex;
-        justify-content: center;
-        margin-left: 50px;
-        margin-bottom: 50px;
+  .form-child-box-button {
 
-}
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+  }
 
 
 
-label {
+  label {
     font-weight: bold;
   }
-  
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
-  textarea { 
+  textarea {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
@@ -374,73 +375,59 @@ label {
     width: 100%;
     box-sizing: border-box;
   }
-  
+
   button:hover {
-    background-color:#11ae81;
+    background-color: #11ae81;
   }
 
 
-/* Coach */
+  /* Coach */
 
-.card-coach {
+  .card-coach {
     max-width: 370px;
     padding: 20px;
     margin: 10px 10px 10px 0px;
     border-radius: 12px;
     border: 1px solid #D4D4E2;
-    
-}
 
-.card-row-coach {
+  }
 
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 100px;
-  
-}
+  .card-row-coach {
 
-.title-price {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+  }
+
+  .title-price {
     margin-top: 16px;
     display: flex;
     justify-content: space-between;
-   
-}
 
-.title-price p {
+  }
+
+  .title-price p {
     margin-bottom: 8px;
-   
-}
 
-.title-price h4 {
+  }
+
+  .title-price h4 {
     font-size: 18px;
-   
-}
 
-.stars {
+  }
+
+  .stars {
     display: flex;
-}
+  }
 
-.stars > * {
+  .stars>* {
     padding: 0px 8px 8px 0px;
     margin: 0px;
-}
+  }
 
 
 
-.section-coach {
-  margin: 5vw;
-}
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
+  .section-coach {
+    margin: 5vw;
+  }

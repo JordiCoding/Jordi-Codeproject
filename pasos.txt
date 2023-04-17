@@ -3,7 +3,13 @@
 3. Agregar todos los archivos: git add .
 4. Verificaion de status. siempre que quieran ya que solo inormativo: git status
 5. Confirmar los cambios con: git commit -m "text"
+6. 
 
-Crear ramas:
-1 saber en cual rama estoy: git branch
-2 Crear nueva rama: git branch nombrederama
+crear branch y eliminar
+git branch name
+git branch -D name // para borrar una branch
+
+moverse entre commits
+
+git log // checking los commits que se han creado
+git log --oneline // mas resumido
