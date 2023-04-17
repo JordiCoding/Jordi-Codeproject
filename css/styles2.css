@@ -104,7 +104,7 @@
   /* Header basic styles */
 
   header {
-    background-color: rgb(4, 4, 4);
+    background-color: black;
     color: white;
 
   }
@@ -116,15 +116,40 @@
     padding: 20px;
   }
 
-  /* Nav Bar */
 
-  .navbar-nav .nav-item.active .nav-link,
-  .navbar-nav .nav-item:hover .nav-link {
-    color: #FFCC78;
+
+  /* Header flexbox */
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
   }
 
-  .navbar-nav a {
-    color: white;
+
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li {
+    margin: 0 15px;
+  }
+
+  .nav-links li a {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
   }
 
   .login a {
@@ -136,14 +161,17 @@
     font-weight: bold;
   }
 
+  .padre-nav {
 
-  /* Hero Page */
-
-  .h1-style {
-    font-size: 80px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10%;
 
   }
+
+
+  /* Hero Page */
 
 
   .center-h1 {
@@ -175,24 +203,15 @@
 
   /* Home Content flexbox */
 
-
   .features {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     gap: 10%;
-    padding: 25px;
+    padding: 50px;
 
   }
-
-  .image-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
 
   .feature-black {
     background-color: #0C0C0D;
@@ -202,9 +221,9 @@
 
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     align-content: center;
     width: 570px;
+    height: 40%;
     padding-bottom: 20px;
     margin: 80px 30px 20px 20px;
   }

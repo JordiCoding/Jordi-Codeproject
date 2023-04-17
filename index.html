@@ -7,109 +7,152 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
     <header>
 
-        <!-- Navigation -->
+        <section class="container">
 
-        <nav>
-            <div class="logo">
-                <a href="index.html"> <img src="img/Logo.svg" alt="Logo"></a>
+            <!-- BOOSTRAP NAVBAR -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="index.html"> <img src="img/Logo.svg" alt="Logo"></a>
+                    </div>
+
+                    <!-- MENU HAMBURGER -->
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-dark"></span>
+                    </button>
+
+                    <!-- LISTA ITEMS -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/coach.html">Coach</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="login">
+                            <a href="#">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Hero page -->
+
+            <div class="center-h1">
+
+                <h1 class="h1-style">
+                    <span class="span-yellow">GROW</span><br>
+                    FASTER<br>
+                    WITH A <span class="span-red">COACH</span>
+                </h1>
+
+
+
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/services.html">Services</a></li>
-                <li><a href="pages/coach.html">Coach</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/contact.html">About</a></li>
-            </ul>
-            <div class="login">
-                <a href="#">Login</a>
+
+            <div class="center-h2">
+
+                <h2>We work with professionals and leaders
+                    who want to build careers that fulfil them intellectually,
+                    financially and emotionally.</h2>
+
             </div>
-        </nav>
 
-        <!-- Hero page -->
+            <div class="center-button">
 
-        <div class="center-h1">
+                <a href="pages/coach.html" class="button-primary">Find My Coach</a>
+                <a href="pages/services.html" class="button-secondary">Learn More</a>
 
-            <h1>
-                <span class="span-yellow">GROW</span><br>
-                FASTER<br>
-                WITH A <span class="span-red">COACH</span>
-            </h1>
+            </div>
 
-
-
-        </div>
-
-        <div class="center-h2">
-
-            <h2>We work with professionals and leaders
-                who want to build careers that fulfil them intellectually,
-                financially and emotionally.</h2>
-
-        </div>
-
-        <div class="center-button">
-
-            <a href="pages/coach.html" class="button-primary">Find My Coach</a>
-            <a href="pages/services.html" class="button-secondary">Learn More</a>
-
-        </div>
+        </section>
 
     </header>
 
+
     <!-- Description 1 -->
 
-    <section class="features">
+    <section class="container-fluid">
 
-        <div class="image-content">
-            <img src="img/Worldmap.png" alt="Logo">
+        <div class="features row">
+
+            <div class="image-content col my-5 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <img src="img/Worldmap.png" alt="Logo">
+            </div>
+
+            <div class="col box-content my-5 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+                <h3>Helping
+                    <span class="span-red">People</span><br>
+                    Around The World
+                </h3>
+
+                <p class="p1">We work with professionals and leaders who want to build careers
+                    that fulfil them intellectually, financially and emotionally.</p>
+
+                <a href="#" class="button-primary">Find My Coach</a>
+            </div>
+
         </div>
-
-        <div class="box-content">
-            <h3>Helping
-                <span class="span-red">People</span><br>
-                Around The World
-            </h3>
-
-            <p class="p1">We work with professionals and leaders who want to build careers
-                that fulfil them intellectually, financially and emotionally.</p>
-
-            <a href="#" class="button-primary">Find My Coach</a>
-
-        </div>
-
     </section>
+
 
     <!-- Description 2 -->
 
-    <section class="features feature-black">
+
+    <section class="container-fluid container-sm feature-black">
+
+        <div class="features feature-black row">
+
+            <div class="col box-content my-5 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+                <h3 class="h3dark">Helping the
+                    <span class="span-yellow">startups</span><br>
+                    to get the
+                    <span class="span-red">Best</span>
+                </h3>
+
+                <p class="p1 p1dark">Helping the startup businesses to get the best.
+                    We work with professionals and leaders who want to build careers
+                    that fulfil them intellectually, financially and emotionally.</p>
+
+                <a href="#" class="button-primary">Learn More</a>
+            </div>
+
+            <div class="image-content col my-5 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <img src="img/Union.png" alt="Logo">
+            </div>
 
 
-
-        <div class="box-content">
-
-            <h3 class="h3 h3dark">Helping the
-                <span class="span-yellow">startups</span><br>
-                to get the
-                <span class="span-red">Best</span>
-            </h3>
-
-            <p class="p1 p1dark">Helping the startup businesses to get the best.
-                We work with professionals and leaders who want to build careers
-                that fulfil them intellectually, financially and emotionally.</p>
-
-            <a href="#" class="button-primary">Learn More</a>
 
         </div>
-
-        <div class="image-content">
-            <img src="img/Union.png" alt="Logo">
-        </div>
-
     </section>
 
     <!-- Title card section -->
@@ -267,6 +310,9 @@
 
     </footer>
 
+    <!-- Bootstrap script -->
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
