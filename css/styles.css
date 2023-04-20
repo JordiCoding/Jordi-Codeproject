@@ -244,6 +244,19 @@
 
   /* Title card section */
 
+
+  .title-father {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-son {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
   .section3 {
     display: flex;
     flex-wrap: wrap;
