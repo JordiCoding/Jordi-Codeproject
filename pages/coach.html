@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -15,37 +17,63 @@
 
         <!-- Navigation -->
 
-        <nav>
-            <div class="logo">
-                <a href="../index.html"> <img src="../img/Logo.svg" alt="Logo"></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="coach.html">Coach</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="login">
-                <a href="#">Login</a>
-            </div>
-        </nav>
+        <section class="container">
 
+            <!-- BOOSTRAP NAVBAR -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <div class="logo">
+                        <a href="../index.html"> <img src="../img/Logo.svg" alt="Logo"></a>
+                    </div>
 
+                    <!-- MENU HAMBURGER -->
 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar-dark"></span>
+                    </button>
 
+                    <!-- LISTA ITEMS -->
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="coach.html">Coach</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="login">
+                            <a href="#">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
     </header>
 
 
-
     <!-- Coach Card section -->
 
-    <section class="section-coach">
+    <section class="container mt-5 ">
 
-        <div>
+        <div class="mx-auto">
             <p><b>Carrer Coaching</b></p>
-            <p>test 2</p>
             <p>20 carrer coach for you</p>
         </div>
 
@@ -54,7 +82,7 @@
 
             <!-- Coach 1 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach1.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -81,7 +109,7 @@
 
             <!-- Coach 2 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach2.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -108,7 +136,7 @@
 
             <!-- Coach 3 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach3.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -135,7 +163,7 @@
 
             <!-- Coach 4 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach4.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -162,7 +190,7 @@
 
             <!-- Coach 5 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach5.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -189,7 +217,7 @@
 
             <!-- Coach 6 -->
 
-            <div class="card-coach">
+            <div class="card-coach mx-auto">
                 <img src="../img/coach6.png" alt="Logo">
                 <div class="title-price">
                     <h4>Kagiso Rabada</h4>
@@ -225,12 +253,12 @@
 
     <footer>
 
-        <section class="footer-parent">
+        <section class="container-fluid footer-parent">
 
             <div class="footer-child">
                 <img src="../img/Logoblack.svg" alt="Logo">
                 <h3>Grow Faster With a Coach</h3>
-                <a href="#" class="button-primary">Find My Coach</a>
+                <a href="coach.html" class="button-primary">Find My Coach</a>
             </div>
 
 
@@ -238,47 +266,47 @@
 
             <div class="footer-child">
                 <p><b>Page</b></p>
-                <lu>
+                <ul>
                     <li>Services</li>
                     <li>Find a Coach</li>
                     <li>Find a Coach</li>
                     <li>About</li>
                     <li>Blog</li>
-                </lu>
+                </ul>
             </div>
 
 
             <div class="footer-child">
                 <p><b>Coaching</b></p>
-                <lu>
+                <ul>
                     <li>Carrer</li>
                     <li>Job Search</li>
                     <li>Interview</li>
                     <li>Business</li>
                     <li>Life</li>
-                </lu>
+                </ul>
             </div>
 
             <div class="footer-child">
                 <p><b>Company</b></p>
-                <lu>
+                <ul>
                     <li>Carrer</li>
                     <li>Job Search</li>
                     <li>Interview</li>
                     <li>Business</li>
                     <li>Life</li>
-                </lu>
+                </ul>
             </div>
 
             <div class="footer-child">
                 <p><b>Follow Us</b></p>
-                <lu>
+                <ul>
                     <li>Carrer</li>
                     <li>Job Search</li>
                     <li>Interview</li>
                     <li>Business</li>
                     <li>Life</li>
-                </lu>
+                </ul>
             </div>
 
 
@@ -286,7 +314,10 @@
 
     </footer>
 
-</body>
+    <!-- Bootstrap script -->
 
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
 
 </html>
