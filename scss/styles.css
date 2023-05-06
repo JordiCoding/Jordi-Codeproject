@@ -61,7 +61,7 @@
 h1 {
   font-size: 120px;
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   h1 {
     font-size: 65px;
   }
@@ -130,72 +130,21 @@ header {
   background-color: #5DE8C1;
 }
 
-/* .header-padre {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-}
-
-
-/* Header flexbox */
-/*
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-
-.logo a {
-    font-size: 24px;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links li a {
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
 .login a {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
-
-.padre-nav {
-
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10%;
-
-}
-
 
 /* Hero Page */
 .h1-style {
   font-size: 80px;
   font-weight: bold;
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .h1-style {
     font-size: 65px;
   }
