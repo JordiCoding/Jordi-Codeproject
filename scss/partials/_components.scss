@@ -1,0 +1,99 @@
+@import '../var/variables';
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    list-style: none;
+
+}
+
+
+
+/* Button Components */
+
+.button-primary,
+.button-secondary,
+.button-tertiary {
+    display: inline-block;
+    padding: $button-padding;
+    color: #0C0C0D;
+    text-decoration: none;
+    border: none;
+    border-radius: $button-radius;
+    font-size: $button-font-size;
+    font-weight: $button-font-weight;
+    cursor: $button-cursor;
+}
+
+.button-primary {
+    background-color: $primary-color;
+}
+
+.button-secondary {
+    background-color: $secondary-color;
+}
+
+.button-tertiary {
+    background-color: $tertiary-color;
+    color: $tertiary-color-text;
+    padding: 8px 24px;
+    border-radius: 24px;
+}
+
+@import '../var/variables';
+
+/* Fontsize-Styles */
+
+h1 {
+    font-size: 120px;
+
+    @media (max-width: 350px) {
+        font-size: 65px;
+    }
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.h3dark {
+    color: #FFFFFF
+}
+
+h5 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.p1 {
+    font-size: 18px;
+    color: #565565;
+    margin-bottom: 40px;
+}
+
+.p1dark {
+    color: #FFFFFF;
+}
+
+.p2 {
+
+    font-size: 16px;
+    color: #565565;
+}
+
+.span-yellow {
+    color: #FFCC78
+}
+
+.span-red {
+    color: #F4877A
+}

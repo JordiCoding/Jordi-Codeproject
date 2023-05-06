@@ -1,0 +1,103 @@
+@import '../var/variables';
+
+/* Form */
+
+.form-parent-box {
+    @include flexbox-wrap-j-a-c;
+    margin-bottom: 10px;
+}
+
+.form-child-box {
+    width: 100%;
+}
+
+.form-child-box-button {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #11ae81;
+}
+
+
+/* Contact Grid improvment */
+
+
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "item-1 item-2"
+        "item-3 item-4"
+        "item-5 item-6"
+        "item-7 item-7";
+}
+
+.item-contact-1 {
+    grid-area: item-1;
+}
+
+.item-contact-2 {
+    grid-area: item-2;
+}
+
+.item-contact-3 {
+    grid-area: item-3;
+}
+
+.item-contact-4 {
+    grid-area: item-4;
+}
+
+.item-contact-5 {
+    grid-area: item-5;
+}
+
+.item-contact-6 {
+    grid-area: item-6;
+}
+
+.item-contact-7 {
+    grid-area: item-7;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .grid-container-contact {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-3"
+            "item-4"
+            "item-5"
+            "item-6"
+            "item-7";
+    }
+}

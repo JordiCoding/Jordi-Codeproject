@@ -1,0 +1,61 @@
+@import '../var/variables';
+
+/* Services Grid improvment */
+
+
+.box-content-g {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.grid-container-s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+        "item-1 item-2"
+        "item-3 item-4"
+        "item-5 item-6";
+}
+
+.item-1 {
+    grid-area: item-1;
+}
+
+.item-2 {
+    grid-area: item-2;
+}
+
+.item-3 {
+    grid-area: item-3;
+}
+
+.item-4 {
+    grid-area: item-4;
+}
+
+.item-5 {
+    grid-area: item-5;
+}
+
+.item-6 {
+    grid-area: item-6;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .grid-container-s {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-4"
+            "item-3"
+            "item-5"
+            "item-6";
+    }
+}

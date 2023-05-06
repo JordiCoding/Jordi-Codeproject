@@ -1,0 +1,82 @@
+@import '../var/variables';
+
+/* Footer */
+
+.footer-parent {
+
+    padding: 1rem;
+    background-color: #FFCC78;
+
+}
+
+.footer-child {
+    padding: 1rem;
+}
+
+.footer-child,
+p {
+    margin-bottom: 24px;
+}
+
+.footer-child,
+li {
+    margin-bottom: 16px;
+}
+
+/* Footer Grid improvment */
+
+
+.grid-container-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+        "item-1 item-1 item-1 item-1"
+        "item-2 item-3 item-4 item-5";
+}
+
+.item-f-1 {
+    grid-area: item-1;
+}
+
+.item-f-2 {
+    grid-area: item-2;
+}
+
+.item-f-3 {
+    grid-area: item-3;
+}
+
+.item-f-4 {
+    grid-area: item-4;
+}
+
+.item-f-5 {
+    grid-area: item-5;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .grid-container-footer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "item-1 item-1"
+            "item-2 item-3"
+            "item-4 item-5";
+    }
+}
+
+
+@media screen and (max-width: 468px) {
+    .grid-container-footer {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "item-1"
+            "item-2"
+            "item-3"
+            "item-4"
+            "item-5";
+    }
+}
