@@ -1,17 +1,12 @@
 $white: #ffffff;
 
-:root {
-    --bs-nav-link-color: #{$white};
-}
 
 
-/* Button Colors */
 $primary-color: #5DE8C1;
 $secondary-color: #FFFFFF;
 $tertiary-color: #2C2C2B;
 $tertiary-color-text: #FFFFFF;
 
-/* Button Sizes */
 $button-padding: 15px 35px;
 $button-radius: 29px;
 $button-font-size: 16px;
@@ -25,8 +20,6 @@ $button-cursor: pointer;
     justify-content: center;
     align-content: center;
 }
-
-
 
 
 @mixin flexbox-j-a-center {

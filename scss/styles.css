@@ -1,18 +1,6 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-@import "../bootstrap/css/bootstrap.css";
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Reset CSS */
+@import "../bootstrap/css/bootstrap.css";
 * {
   margin: 0;
   padding: 0;
@@ -51,12 +39,6 @@
   border-radius: 24px;
 }
 
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Fontsize-Styles */
 h1 {
   font-size: 120px;
@@ -108,12 +90,6 @@ h5 {
   color: #F4877A;
 }
 
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 header {
   background-color: black;
   color: white;
@@ -175,12 +151,6 @@ header {
   gap: 10%;
 }
 
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Footer */
 .footer-parent {
   padding: 1rem;
@@ -242,12 +212,6 @@ li {
     grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5";
   }
 }
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Home Content flexbox */
 .features {
   display: flex;
@@ -371,12 +335,6 @@ li {
   margin-bottom: 16px;
 }
 
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* About Grid improvment */
 .grid-container-about {
   display: grid;
@@ -408,12 +366,6 @@ li {
     grid-template-areas: "item-1" "item-2" "item-4" "item-3";
   }
 }
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Coach */
 .card-coach {
   max-width: 370px;
@@ -452,12 +404,6 @@ li {
   margin: 0px;
 }
 
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Form */
 .form-parent-box {
   display: flex;
@@ -542,12 +488,6 @@ button:hover {
     grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5" "item-6" "item-7";
   }
 }
-:root {
-  --bs-nav-link-color: #ffffff;
-}
-
-/* Button Colors */
-/* Button Sizes */
 /* Services Grid improvment */
 .box-content-g {
   display: flex;
