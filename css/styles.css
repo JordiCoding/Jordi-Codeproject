@@ -1,6 +1,6 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 /* Reset CSS */
-@import "../bootstrap/css/bootstrap.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -43,6 +43,7 @@
 h1 {
   font-size: 120px;
 }
+
 @media (max-width: 450px) {
   h1 {
     font-size: 65px;
@@ -56,6 +57,7 @@ h2 {
 .h2title {
   font-size: 36px;
 }
+
 @media (max-width: 450px) {
   .h2title {
     font-size: 24px;
@@ -65,6 +67,7 @@ h2 {
 .h3title {
   font-size: 16px;
 }
+
 @media (max-width: 450px) {
   .h3title {
     font-size: 14px;
@@ -121,6 +124,7 @@ header {
 .white-link {
   color: #ffffff;
 }
+
 .white-link:hover {
   color: #5DE8C1;
 }
@@ -143,6 +147,7 @@ header {
   font-size: 80px;
   font-weight: bold;
 }
+
 @media (max-width: 450px) {
   .h1-style {
     font-size: 65px;
@@ -229,12 +234,14 @@ li {
     grid-template-areas: "item-1 item-1" "item-2 item-3" "item-4 item-5";
   }
 }
+
 @media screen and (max-width: 468px) {
   .grid-container-footer {
     grid-template-columns: 1fr;
     grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5";
   }
 }
+
 /* Home Content flexbox */
 .features {
   display: flex;
@@ -263,7 +270,7 @@ li {
   flex-direction: column;
 }
 
-.image-content > img {
+.image-content>img {
   width: 100%;
   height: auto;
 }
@@ -277,13 +284,16 @@ li {
     justify-content: center;
     align-items: center;
   }
+
   .resize {
     width: 300px;
   }
-  .imgage-content > img {
+
+  .imgage-content>img {
     width: 300px;
   }
 }
+
 .feature-black {
   background-color: #0C0C0D;
 }
@@ -307,6 +317,7 @@ li {
   align-items: center;
   text-align: center;
 }
+
 .section3-child {
   width: 570px;
   height: 200px;
@@ -350,11 +361,11 @@ li {
   border: 1px solid #D4D4E2;
 }
 
-.card2 > img {
+.card2>img {
   padding: 20px;
 }
 
-.card > * {
+.card>* {
   margin-bottom: 16px;
 }
 
@@ -389,6 +400,7 @@ li {
     grid-template-areas: "item-1" "item-2" "item-4" "item-3";
   }
 }
+
 /* Coach */
 .card-coach {
   max-width: 370px;
@@ -397,6 +409,7 @@ li {
   border-radius: 12px;
   border: 1px solid gray;
 }
+
 .card-coach .title-price {
   margin-top: 16px;
   display: flex;
@@ -404,10 +417,12 @@ li {
   flex-wrap: wrap;
   align-items: center;
 }
+
 .card-coach .title-price p {
   margin-bottom: 8px;
   margin-right: 8px;
 }
+
 .card-coach .title-price h4 {
   font-size: 18px;
   margin: 0;
@@ -422,7 +437,8 @@ li {
 .stars {
   display: flex;
 }
-.stars > * {
+
+.stars>* {
   padding: 0px 8px 8px 0px;
   margin: 0px;
 }
@@ -511,6 +527,7 @@ button:hover {
     grid-template-areas: "item-1" "item-2" "item-3" "item-4" "item-5" "item-6" "item-7";
   }
 }
+
 /* Services Grid improvment */
 .box-content-g {
   display: flex;
